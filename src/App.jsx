@@ -20,7 +20,7 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('./src/assets/bcgImage.jpg')`,
+            backgroundImage: `url('./bgimg.jpg')`,
         }}
     >
         <div className="w-full">
