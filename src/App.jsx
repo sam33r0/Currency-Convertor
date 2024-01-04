@@ -14,14 +14,13 @@ function App() {
     setConvertedAmount(amount);
     setAmount(convertedAmount);
   }
-  let BackgroundImage="https://images.pexels.com/photos/68912/pexels-photo-68912.jpeg?auto=compress&cs=tinysrgb&w=400";
   const convert=()=>setConvertedAmount(amount*currencyInfo[to])
   console.log(convertedAmount);
   return (
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url(./src/assets/bcgImage.jpg)`,
+            backgroundImage: `url('./src/assets/bcgImage.jpg')`,
         }}
     >
         <div className="w-full">
